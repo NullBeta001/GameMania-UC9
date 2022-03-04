@@ -10,7 +10,6 @@
 header {
     background-color: #000000;
     height: 80px;
-
 }
 .container-grid {
     width: 1300px;
@@ -25,7 +24,7 @@ header {
 }
 
 .menu {
-    width: 505px;
+    width: 650px;
     height: 31px;
     display: flex;
     justify-content: space-between;
@@ -40,63 +39,82 @@ header {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.logo 
-
 .banner {
-    height: 600px;
-
+    height: 550px;
     background-image: url(../img/Group\ 74.png);
-    background-repeat: no repeat;
+    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    
-}
-
-.posicionamento-banner {
-    height: 100%;
-
-    display: flex;
-    justify-content: space-between;
-    align-items: cover;
-    
+    background-color: white;
 }
 
 .conteudo-banner {
-    width: 495px;
-    height: 300px;
-
-    display: "flex";
+    color: white;
+    width: 500px;
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
 
-    color: white;
-}
-
-.conteudo-banner a {
-    padding: 15px;
-
 }
 
 .conteudo-banner h1 {
+    text-transform: uppercase;
     font-family: "Titillium Web";
-    font-weight: "bold";
+    font-weight: bolder;
     font-size: 80px;
+}
 
+.titulo {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #ffffff00;
+    width: 1300px;
+    height: 100%;
 }
 
 .conteudo-banner p {
+    text-transform: uppercase;
     font-family: "Titillium Web";
-    font-size: 24px;
+    font-weight: bold;
+    font-size: 20px;
 }
 
-.container-grid {
-    width: 1920px;
-    height: 80px;
+.marcas {
+    height: 86px;
+    background-color: black;
+}
 
+.icones {
+    height: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
 
-    color: black;
+.fundo {
+    background-color: #202329;
+    height: 3200px;
+    width: 100%;
+}
 
+.titulo-secundario h2 {
+    text-transform: uppercase;
+    width: 100%;
+    color: white;
+    font-family: "Titillium Web";
+    font-weight: italic;
+    font-size: 35px;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.produtos {
+    background-color: #ffffff00;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
 }
