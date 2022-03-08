@@ -122,6 +122,7 @@ header {
 }
 
 .produtos {
+    align-items: center;
     background-color: #ffffff00;
     display: flex;
     justify-content: space-between;
@@ -165,3 +166,39 @@ header {
     }
 }
 
+.descricao1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    height: 103px;
+    width: 70vw;
+    font-size: 18px;
+    font-family: "Titillium Web";
+    background-color: #00000000;
+
+}
+
+.fone p {
+    width: 210px;
+    margin-top: 10px;
+}
+
+.teclado p {
+    width: 210px;
+    margin-top: 10px;
+}
+
+.mouse p{
+    width: 210px;
+    margin-top: 10px;
+}
+
+.mousepad p {
+    width: 210px;
+    margin-top: 10px;
+}
+
+.monitor p {
+    width: 210px;
+    margin-top: 10px;
+}
