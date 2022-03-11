@@ -48,13 +48,25 @@ header {
 
 .banner {
     height: 550px;
-    background-image: url(../img/Group\ 74.png);
+
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-color: white;
-    display: flex;
-    justify-content: space-between;
+}
+
+.banner-primario {
+    background-image: url(../img/piloto.jpg);
+
+}
+
+.banner-secundario {
+    background-image: url(../img/secundario.jpg);
+
+}
+
+.banner-piloto {
+    background-image: url(../img/Group\ 74.png);
+
 }
 
 .conteudo-banner {
@@ -141,6 +153,10 @@ header {
         width: 80vw;
     }
 
+    .descricao1 {
+        width: 80vw;
+    }
+
 
     .cabecalho {
         position: relative;
@@ -159,6 +175,10 @@ header {
         justify-content: space-around;
         background-color: rgb(22, 21, 21);
         
+    }
+
+    .menu-ativo {
+        display: flex;
     }
 
     #barras {
