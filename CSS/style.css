@@ -133,14 +133,6 @@ header {
     align-items: center;
 }
 
-.produtos {
-    align-items: center;
-    background-color: #ffffff00;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 2%;
-}
-
 @media screen and (max-width: 1300px) {
     .container-grid {
         width: 80vw;
@@ -154,7 +146,7 @@ header {
     }
 
     .descricao1 {
-        width: 80vw;
+        width: 1000px;
     }
 
 
@@ -184,41 +176,90 @@ header {
     #barras {
         display: inline;
     }
+
+    .fone p {
+        font-size: 12px;
+    }
+    
+    .teclado p {
+        font-size: 12px;
+    }
+    
+    .mouse p{
+        font-size: 12px;
+    }
+    
+    .mousepad p {
+        font-size: 12px;
+    }
+    
+    .monitor p {
+        font-size: 12px;
+    }
+
+    .mouse {
+        height: 120px;
+        width: 120px;
+    }
 }
 
 .descricao1 {
     text-align: center;
-    text-transform: uppercase;
     color: white;
     height: 103px;
-    width: 70vw;
+    width: max-content;
     font-size: 18px;
     font-family: "Titillium Web";
     background-color: #00000000;
 
 }
 
-.fone p {
-    width: 210px;
-    margin-top: 10px;
+.informacao {
+    text-transform: uppercase;
+
 }
 
-.teclado p {
-    width: 210px;
-    margin-top: 10px;
+.pagamento {
+    text-align: left;
+    color: #00FF19;
+    font-size: 15px;
+
 }
 
-.mouse p{
-    width: 210px;
-    margin-top: 10px;
+.valor1 {
+    text-align: left;
+    text-transform: uppercase;
+    color: #00FF19;
+    font-family: "Titillium Web";
+    font-size: 22px;
+    font-weight: bold;
+
 }
 
-.mousepad p {
-    width: 210px;
-    margin-top: 10px;
+.valor2 {
+    text-align: left;
+    text-transform: uppercase;
+    color: #FF0000;
+    font-family: "Titillium Web";
+    font-size: 22px;
+    font-weight: bold;
+    
 }
 
-.monitor p {
+.parcelado {
+    text-align: left;
+    font-size: 15px;
+
+
+}
+
+.divisao {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.descricao1 div {
     width: 210px;
-    margin-top: 10px;
+    
 }

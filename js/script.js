@@ -3,7 +3,7 @@ $(document).ready(function() {
     let slideAtual = 1;
     let listaSlides = ["banner-primario", "banner-secundario", "banner-piloto"]
 
-    setInterval(mudarSlide, 1000)
+    setInterval(mudarSlide, 2000)
 
     function mudarSlide() {
         console.log("Slide atual:", slideAtual);
