@@ -267,7 +267,7 @@ header {
 .terceiro-titulo {
     font-style: italic;
     text-transform: uppercase;
-    width: 100%;
+    width: 100vw;
     height: 150px;
     color: white;
     font-family: "Titillium Web";
@@ -277,16 +277,31 @@ header {
     justify-content: space-between;
     align-items: center;
     padding-top: 350px;
+    padding-bottom: 35px;
 
 }
 
 .imagem-games {
     width: 100vw;
-    height: 81vh;
+    height: 750px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 
 }
+
+.placa-de-video {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    font-weight: italic;
+    text-transform: uppercase;
+    font-family: "Titillium Web";
+    color: #00A510;
+    font-size: 20px;
+
+}
+
 
