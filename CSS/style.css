@@ -206,7 +206,7 @@ header {
 .descricao1 {
     text-align: center;
     color: white;
-    height: 103px;
+    height: 450px;
     width: 65vw;
     font-size: 18px;
     font-family: "Titillium Web";
@@ -268,7 +268,7 @@ header {
     font-style: italic;
     text-transform: uppercase;
     width: 100vw;
-    height: 150px;
+    height: 25px;
     color: white;
     font-family: "Titillium Web";
     font-size: 16px;
@@ -276,8 +276,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 350px;
-    padding-bottom: 35px;
 
 }
 
@@ -304,4 +302,47 @@ header {
 
 }
 
+.descricao-placas {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    color: white;
+    height: 450px;
+    width: auto;
+    font-size: 18px;
+    font-family: "Titillium Web";
+    background-color: #00000000;
+    padding-left: 350px;
+    padding-right: 350px;
+    padding-top: 20px;
+
+}
+
+.primeira-placa {
+    width: 210px;
+}
+
+.segunda-placa {
+    width: 210px;
+}
+
+.terceira-placa {
+    width: 210px;
+}
+
+.banner-placa-de-video {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: 420px;
+    padding-top: 20px;
+}
+
+.banner-2-placa-de-video {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: 160px;
+    padding-top: 40px;
+}
 
