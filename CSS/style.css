@@ -396,72 +396,151 @@ header {
 Largura máxima tablet= 768px
 Largura máxima smartphone= 320px*/
 
-@media screen and (max-width: 1300px) {
-    .container-grid {
-        width: 80vw;
+@media screen and (max-width: 768px) {
+    
+    .cabecalho {
+        width: 768px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 
-}
+    .menu a {
+        font-size: 17px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 
-@media screen and (max-width: 1000px) {
-    .container-grid {
-        width: 80vw;
+    .banner {
+        height: 370px;
+    }
+
+    .conteudo-banner h1 {
+        text-transform: uppercase;
+        font-family: "Titillium Web";
+        font-weight: bolder;
+        font-size: 60px;
+    }
+
+    .conteudo-banner p {
+        text-transform: uppercase;
+        font-family: "Titillium Web";
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+    .titulo {
+        padding-top: 130px;
+        padding-left: 280px;
+    }
+
+    .icones {
+        width: 768px;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    .img1 {
+        width: 86px;
+    }
+
+    .img2 {
+        width: 62px;
+    }
+
+    .img3 {
+        width: 100px;
+    }
+
+    .img4 {
+        width: 53px;
+    }
+
+    .img5 {
+        width: 95px;
+    }
+    
+    .img6 {
+        width: 53px;
+    }
+    
+    .img7{
+        width: 94px;
+    }
+
+    .titulo-secundario h2 {
+        font-size: 26px;
     }
 
     .descricao1 {
-        width: 1000px;
+        width: max-content;
+        height: 350px;
     }
 
-
-    .cabecalho {
-        position: relative;
-    
+    .descricao1 div {
+        width: 130px;
+        height: 350px;
     }
-    
-    .menu {
-        position: absolute;
-        top: 0px;
-        font-family: "Titillium Web";
 
-        width: 200px;
+    .img-fone {
+        width: 110px;
+
+    }
+
+    .img-teclado {
+        width: 110px;
+    }
+
+    .img-mouse {
+        width: 110px;
+    }
+
+    .img-mousepad {
+        width: 110px;
+    }
+
+    .img-monitor {
+        width: 110px;
+    }
+
+    .informacao {
+        font-size: 13px;
+        height: 120px;
+    }
+
+    .pagamento {
+        font-size: 12px;
+    }
+
+    .valor1 {
+        font-size: 17px;
+    }
+
+    .linha {
+        height: max-content;
+    }
+
+    .valor2 {
+        font-size: 17px;
+    }
+
+    .parcelado {
+        font-size: 12px;
+    }
+
+    .imagem-games {
+        width: max-content;
         height: 400px;
-        display: none;
-        flex-direction: column;
-        justify-content: space-around;
-        background-color: rgb(22, 21, 21);
+        padding-top: 15px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .jogos-top {
+        width: 708px;
         
     }
+}
 
-    .menu-ativo {
-        display: flex;
-    }
+@media screen and (max-width: 320px) {
 
-    #barras {
-        display: inline;
-    }
-
-    .fone p {
-        font-size: 12px;
-    }
-    
-    .teclado p {
-        font-size: 12px;
-    }
-    
-    .mouse p{
-        font-size: 12px;
-    }
-    
-    .mousepad p {
-        font-size: 12px;
-    }
-    
-    .monitor p {
-        font-size: 12px;
-    }
-
-    .mouse {
-        height: 120px;
-        width: 120px;
-    }
 }
