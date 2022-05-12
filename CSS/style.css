@@ -93,6 +93,7 @@ header {
     background-color: #ffffff00;
     width: 90vw;
     height: 100%;
+    padding-top: 180px;
 }
 
 .conteudo-banner p {
@@ -285,8 +286,8 @@ header {
     color: white;
     display: flex;
     justify-content: space-between;
-    padding-left: 380px;
-    padding-right: 380px;
+    padding-left: 18%;
+    padding-right: 18%;
     padding-top: 70px;
     
 }
@@ -306,8 +307,8 @@ header {
     display: flex;
     justify-content: space-between;
     padding-top: 70px;
-    padding-left: 340px;
-    padding-right: 340px;
+    padding-left: 18%;
+    padding-right: 18%;
     font-family: "Titillium Web";
     
 }
@@ -330,7 +331,7 @@ header {
 
 .container-duvidas {
     width: 260px;
-    height: 370px;
+    height: 170px;
     font-size: 13px;
     font-weight: lighter;
     padding-top: 60px;
@@ -395,6 +396,224 @@ header {
 /*Setor do código reservado para responsividade
 Largura máxima tablet= 768px
 Largura máxima smartphone= 320px*/
+
+@media screen and (max-width: 1800px) {
+    .assine {
+        font-size: 20px;
+    }
+
+    .seu-nome {
+        width: 180px;
+    }
+
+    .seu-email {
+        width: 250px;
+    }
+
+    .inscreva {
+        width: 140px;
+    }
+
+    .links-rapidos {
+        height: 450px;
+    }
+
+    .fundo {
+        height: 2900px;
+    }
+}
+
+@media screen and (max-width: 1700px) {
+    .assine {
+        font-size: 18px;
+    }
+
+    .seu-nome {
+        width: 160px;
+    }
+
+    .seu-email {
+        width: 220px;
+    }
+
+    .inscreva {
+        width: 120px;
+    }
+
+    .fundo {
+        height: 2880px;
+    }
+
+}
+
+@media screen and (max-width: 1600px) {
+    .icones {
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+
+    .imagem-games {
+        height: 680px;
+    }
+
+    .jogos-top {
+        width: 1200px;
+    }
+
+    .banner1 {
+        width: 1180px;
+    }
+
+    .banner2 {
+        width: 870px;
+    }
+
+    .links-rapidos {
+        height: 400px;
+    }
+
+    .fundo {
+        height: 2800px;
+    }
+}
+
+@media screen and (max-width: 1450px) {
+    .banner {
+        height: 500px;
+    }
+
+    .conteudo-banner h1 {
+        text-transform: uppercase;
+        font-family: "Titillium Web";
+        font-weight: bolder;
+        font-size: 70px;
+    }
+
+    .conteudo-banner p {
+        text-transform: uppercase;
+        font-family: "Titillium Web";
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    .titulo {
+        padding-top: 170px;
+        padding-left: 280px;
+    }
+
+    .icones {
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+
+    .titulo-secundario h2 {
+        font-size: 32px;
+    }
+
+    .descricao1 {
+        width: max-content;
+        height: 400px;
+    }
+
+    .descricao1 div {
+        width: 180px;
+        height: 350px;
+    }
+
+    .img-fone {
+        width: 140px;
+
+    }
+
+    .img-teclado {
+        width: 140px;
+    }
+
+    .img-mouse {
+        width: 140px;
+    }
+
+    .img-mousepad {
+        width: 140px;
+    }
+
+    .img-monitor {
+        width: 140px;
+    }
+
+    .informacao {
+        font-size: 17px;
+        height: 120px;
+    }
+
+    .pagamento {
+        font-size: 14px;
+    }
+
+    .valor1 {
+        font-size: 20px;
+    }
+
+    .linha {
+        height: max-content;
+    }
+
+    .valor2 {
+        font-size: 20px;
+    }
+
+    .parcelado {
+        font-size: 14px;
+    }
+
+    .imagem-games {
+        width: max-content;
+        height: 650px;
+        padding-top: 10px;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .jogos-top {
+        width: 1160px;
+        
+    }
+
+    .descricao-placas div {
+        width: 180px;
+    }
+
+    .placa1 {
+        width: 140px;
+
+    }
+
+    .placa2 {
+        width: 140px;
+    }
+
+    .placa3 {
+        width: 140px;
+    }
+
+    .banner1 {
+        width: 1080px;
+    }
+
+    .banner2 {
+        width: 820px;
+    }
+
+    .fundo{
+        height: 2750px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .imagem-games {
+        width: 100%;
+    }
+}
 
 @media screen and (max-width: 768px) {
     
