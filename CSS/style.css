@@ -11,13 +11,17 @@ header {
     background-color: #000000;
     height: 80px;
 }
+
 .container-grid {
     width: 1300px;
     background-color: #000000;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    padding-left: 3%;
+    padding-right: 3%;
 }
+
 .cabecalho {
     display: flex;
     justify-content: space-between;
@@ -37,7 +41,7 @@ header {
     color: white;
 }
 
-.menu a{
+.menu a {
     color: white;
     text-decoration: none;
     font: bolder;
@@ -175,7 +179,7 @@ header {
     font-family: "Titillium Web";
     font-size: 22px;
     font-weight: bold;
-    
+
 }
 
 .parcelado {
@@ -243,8 +247,8 @@ header {
     font-size: 18px;
     font-family: "Titillium Web";
     background-color: #00000000;
-    padding-left: 350px;
-    padding-right: 350px;
+    padding-left: 20%;
+    padding-right: 20%;
     padding-top: 20px;
 
 }
@@ -289,7 +293,7 @@ header {
     padding-left: 18%;
     padding-right: 18%;
     padding-top: 70px;
-    
+
 }
 
 .assine {
@@ -307,13 +311,13 @@ header {
     display: flex;
     justify-content: space-between;
     padding-top: 70px;
-    padding-left: 18%;
-    padding-right: 18%;
+    padding-left: 16%;
+    padding-right: 16%;
     font-family: "Titillium Web";
-    
+
 }
 
-.departamentos{
+.departamentos {
     width: 260px;
     height: 370px;
     font-size: 13px;
@@ -369,7 +373,7 @@ header {
     text-transform: uppercase;
     font-size: 20px;
     font-weight: bold;
-    
+
 }
 
 .titulo2 {
@@ -576,7 +580,7 @@ Largura máxima smartphone= 320px*/
 
     .jogos-top {
         width: 1160px;
-        
+
     }
 
     .descricao-placas div {
@@ -604,7 +608,7 @@ Largura máxima smartphone= 320px*/
         width: 820px;
     }
 
-    .fundo{
+    .fundo {
         height: 2750px;
     }
 }
@@ -613,10 +617,326 @@ Largura máxima smartphone= 320px*/
     .imagem-games {
         width: 100%;
     }
+
+    .assine {
+        width: 380px;
+    }
+
+    .seu-nome {
+        width: 140px;
+    }
+
+    .seu-email {
+        width: 200px;
+    }
+
+    .inscreva {
+        width: 110px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .cabecalho {
+        width: 1200px;
+    }
+    
+    .icones {
+        width: 1200px;
+    }
+
+    .jogos-top {
+        width: 1100px;
+    }
+
+    .descricao-placas {
+        height: 400px;
+    }
+
+    .assine {
+        width: 365px;
+    }
+
+    .seu-nome {
+        width: 120px;
+    }
+
+    .seu-email {
+        width: 180px;
+    }
+
+    .inscreva {
+        width: 100px;
+    }
+
+    .fundo {
+        height: 2680px;
+    }
+}
+
+@media  screen and (max-width: 1200px) {
+    .cabecalho {
+        width: 1100px;
+    }
+
+    .menu {
+        width: 550px;
+    }
+
+    .icones {
+        width: 1100px;
+    }
+
+    .titulo {
+        padding-right: 0px;
+        padding-top: 220px;
+    }
+
+    .jogos-top {
+        width: 1020px;
+    }
+
+    .imagem-games {
+        height: 600px;
+    }
+
+    .titulo-placas {
+        font-size: 28px;
+    }
+
+    .banner1 {
+        width: 990px;
+    }
+
+    .banner-placa-de-video {
+        height: 360px;
+    }
+
+    .banner-2-placa-de-video {
+        padding-top: 5px;
+    }
+
+    .newslatter {
+        padding-top: 35px;
+    }
+
+    .assine {
+        width: 340px;
+    }
+
+    .seu-nome {
+        width: 110px;
+    }
+
+    .seu-email {
+        width: 160px;
+    }
+
+    .inscreva {
+        width: 92px;
+    }
+
+    .links-rapidos {
+        padding-top: 65px;
+    }
+
+    .fundo {
+        height: 2500px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .institucional-duvidas {
+        width: 230px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .cabecalho {
+        width: 1000px;
+    }   
+
+    .menu {
+        width: 480px;
+    }
+
+    .icones {
+        width: 1000px;
+    }
+
+    .img1 {
+        width: 125px;
+    }
+
+    .img2 {
+        width: 70px;
+    }
+
+    .img3 {
+        width: 140px;
+    }
+
+    .img4 {
+        width: 48px;
+    }
+
+    .img5 {
+        width: 140px;
+    }
+
+    .img6 {
+        width: 45px;
+    }
+
+    .img7 {
+        width: 140px;
+    }
+    
+    .titulo-secundario h2 {
+        font-size: 28px;
+    }
+
+    .descricao1 {
+        width: max-content;
+        height: 370px;
+    }
+
+    .descricao1 div {
+        width: 170px;
+        height: 330px;
+    }
+
+    .img-fone {
+        width: 125px;
+    }
+
+    .img-teclado {
+        width: 125px;
+    }
+
+    .img-mouse {
+        width: 125px;
+    }
+
+    .img-mousepad {
+        width: 125px;
+    }
+
+    .img-monitor {
+        width: 125px;
+    }
+
+    .informacao {
+        font-size: 14px;
+        height: 120px;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .pagamento {
+        font-size: 12px;
+    }
+
+    .valor1 {
+        font-size: 17px;
+    }
+
+    .linha {
+        height: max-content;
+    }
+
+    .valor2 {
+        font-size: 17px;
+    }
+
+    .parcelado {
+        font-size: 12px;
+    }
+
+    .imagem-games {
+        height: 560px;
+    }
+
+    .jogos-top {
+        width: 950px;
+    }
+
+    .titulo-placas {
+        font-size: 26px;
+    }
+
+    .banner1 {
+        width: 900px;
+    }
+
+    .banner2 {
+        width: 780px;
+    }
+
+    .assine {
+        width: 310px;
+        font-size: 16px;
+    }
+
+    .titulo1 {
+        font-size: 18px;
+    }
+
+    .titulo2 {
+        font-size: 12.5px;
+    }
+
+    .departamentos {
+        font-size: 11.5px;
+    }
+
+    .institucional-duvidas {
+        font-size: 11.5px;
+    }
+
+    .container-duvidas {
+        font-size: 11.5px;
+    }
+
+    .atendimento {
+        font-size: 11.5px;
+    }
+
+    .contate-nos {
+        font-size: 11.5px;
+    }
+    
+    .img-rodape1 {
+        width: 105px;
+    }
+
+    .img-rodape2 {
+        width: 130px;
+    }
+
+    .img-rodape3 {
+        width: 115px;
+    }
+
+    .img-rodape4 {
+        width: 125px;
+    }
+
+    .img-rodape5 {
+        width: 130px;
+    }
+
+    .grid-certificados {
+        height: 100px;
+        padding-top: 15px;
+    }
+
+    .img-certificados {
+        width: 150px;
+    }
 }
 
 @media screen and (max-width: 768px) {
-    
+
     .cabecalho {
         width: 768px;
         padding-left: 15px;
@@ -677,12 +997,12 @@ Largura máxima smartphone= 320px*/
     .img5 {
         width: 95px;
     }
-    
+
     .img6 {
         width: 53px;
     }
-    
-    .img7{
+
+    .img7 {
         width: 94px;
     }
 
@@ -756,10 +1076,8 @@ Largura máxima smartphone= 320px*/
 
     .jogos-top {
         width: 708px;
-        
+
     }
 }
 
-@media screen and (max-width: 320px) {
-
-}
+@media screen and (max-width: 320px) {}
