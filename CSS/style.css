@@ -959,6 +959,10 @@ Largura máxima smartphone= 320px*/
         height: 120px;
         padding-top: 30px;
     }
+
+    .institucional-duvidas {
+        width: 200px;
+    }
 }
 
 @media screen and (max-width: 1000px) {
