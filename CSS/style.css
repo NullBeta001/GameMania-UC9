@@ -402,6 +402,7 @@ Largura máxima tablet= 768px
 Largura máxima smartphone= 320px*/
 
 @media screen and (max-width: 1800px) {
+    
     .assine {
         font-size: 20px;
     }
@@ -933,6 +934,36 @@ Largura máxima smartphone= 320px*/
     .img-certificados {
         width: 150px;
     }
+
+    .fundo {
+        height: 2400px;
+    }
+    
+}
+
+@media screen and (max-width: 1050px) {
+
+    .seu-nome {
+        width: 105px;
+    }
+
+    .seu-email {
+        width: 150px;
+    }
+
+    .inscreva {
+        width: 88px;
+    }
+
+    .grid-certificados {
+        height: 120px;
+        padding-top: 30px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+
+
 }
 
 @media screen and (max-width: 768px) {
