@@ -966,7 +966,291 @@ Largura máxima smartphone= 320px*/
 }
 
 @media screen and (max-width: 1000px) {
+    .container-grid {
+        width: 95vw;
+    }
 
+    .header {
+        height: 70px;
+    }
+
+    .container-grid.cabecalho {
+        height: 70px;
+        padding-left: 45px;
+        padding-right: 45px;
+    }
+
+    .logo {
+        width: 270px;
+    }
+
+    .menu.menu {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .menu a {
+        font-size: 20px;
+    }
+
+    .icone-menu {
+        width: 42px;
+    }
+
+    .conteudo-banner h1 {
+        font-size: 60px;
+    }
+
+    .conteudo-banner p {
+        font-size: 17px;
+    }
+
+    .container-grid.titulo {
+        padding-top: 240px;
+    }
+
+    .marcas {
+        height: 60px;
+    }
+
+    .container-grid.icones {
+        height: 60px;
+        padding-left: 75px;
+        padding-right: 75px;
+    }
+
+    .img1 {
+        width: 115px;
+    }
+
+    .img2 {
+        width: 60px;
+    }
+
+    .img3 {
+        width: 120px;
+    }
+
+    .img4 {
+        width: 42px;
+    }
+
+    .img5 {
+        width: 125px;
+    }
+
+    .img6 {
+        width: 41px;
+    }
+
+    .img7 {
+        width: 120px;
+    }
+
+    .jogos-top {
+        width: 880px;
+    }
+
+    .imagem-games {
+        height: 500px;
+    }
+
+    .titulo-placas {
+        font-size: 22px;
+    }
+
+    .descricao-placas {
+        height: 380px;
+    }
+
+    .banner-placa-de-video {
+        height: 340px;
+    }
+
+    .banner1 {
+        width: 880px;
+    }
+
+    .banner-2-placa-de-video {
+        height: 140px;
+    }
+
+    .banner2 {
+        height: 130px;
+    }
+
+    .newslatter {
+        padding-top: 20px;
+        padding-left: 170px;
+        padding-right: 170px;
+    }
+
+    .assine {
+        font-size: 14.5px;
+    }
+
+    .seu-nome {
+        width: 100px;
+    }
+
+    .seu-email {
+        width: 140px;
+    }
+
+    .links-rapidos {
+        padding-top: 45px;
+        padding-left: 150px;
+        padding-right: 150px;
+        height: 370px;
+    }
+
+    .titulo1 {
+        font-size: 16px;
+    }
+
+    .titulo2 {
+        font-size: 12px;
+    }
+
+    .departamentos {
+        font-size: 10.5px;
+        height: 320px;
+    }
+
+    .institucional-duvidas {
+        font-size: 10.5px;
+        height: 320px;
+        width: 170px;
+    }
+
+    .container-duvidas {
+        font-size: 10.5px;
+        padding-top: 40px;
+        width: 200px;
+    }
+
+    .atendimento {
+        font-size: 10.5px;
+        height: 320px;
+    }
+
+    .contate-nos {
+        height: 320px;
+    }
+
+    .grid-certificados {
+        padding-top: 5px;
+    }
+
+    .fundo {
+        height: 2230px;
+    }
+
+    .rodape {
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .container-grid {
+        width: 97vw;
+    }
+
+    .container-grid.icones {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .menu.menu {
+        display: none;
+    }
+    
+    .fone {
+        width: 140px;
+    }
+
+    .descricao1 {
+        flex-wrap: wrap;
+    }
+
+    .jogos-top {
+        width: 90vw;
+    }
+
+    .descricao1 div {
+        width: 140px;
+    }
+
+    .informacao {
+        width: 140px;
+    }
+
+    .pagamento {
+        width: 140px;
+    }
+
+    .valor1 {
+        width: 140px;
+    }
+
+    .valor2 {
+        width: 140px;
+    }
+
+    .parcelado {
+        width: 140px;
+    }
+
+    .imagem-games {
+        padding-top: 1%;
+        height: auto;
+    }
+
+    .titulo-placas {
+        text-align: center;
+        width: 95vw;
+        flex-wrap: wrap;
+    }
+
+    .descricao-placas {
+        align-items: center;
+        width: 100vw;
+        padding-left: 15%;
+        padding-right: 15%;
+        flex-wrap: wrap;
+    }
+
+    .placa1 {
+        width: 125px;
+    }
+
+    .placa2 {
+        width: 125px;
+    }
+
+    .placa3 {
+        width: 125px;
+    }
+
+    .descricao-placas div {
+        width: 140px;
+    }
+
+    .banner-placa-de-video {
+        height: 280px;
+    }
+
+    .banner1 {
+        width: 94vw;
+    }
+
+    .banner-2-placa-de-video {
+        height: 140px;
+    }
+
+    .banner2 {
+        width: 85vw;
+    }
 
 }
 
