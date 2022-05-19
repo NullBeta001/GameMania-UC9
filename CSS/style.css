@@ -609,6 +609,11 @@ Largura máxima smartphone= 320px*/
         width: 820px;
     }
 
+    .newslatter {
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+
     .fundo {
         height: 2750px;
     }
@@ -617,6 +622,11 @@ Largura máxima smartphone= 320px*/
 @media screen and (max-width: 1400px) {
     .imagem-games {
         width: 100%;
+    }
+
+    .newslatter {
+        padding-left: 15%;
+        padding-right: 15%;
     }
 
     .assine {
@@ -651,6 +661,11 @@ Largura máxima smartphone= 320px*/
 
     .descricao-placas {
         height: 400px;
+    }
+
+    .newslatter {
+        padding-left: 15%;
+        padding-right: 15%;
     }
 
     .assine {
@@ -717,7 +732,8 @@ Largura máxima smartphone= 320px*/
     }
 
     .newslatter {
-        padding-top: 35px;
+        padding-left: 18%;
+        padding-right: 18%;
     }
 
     .assine {
@@ -746,6 +762,11 @@ Largura máxima smartphone= 320px*/
 }
 
 @media screen and (max-width: 1150px) {
+    .newslatter {
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+
     .institucional-duvidas {
         width: 230px;
     }
@@ -873,6 +894,11 @@ Largura máxima smartphone= 320px*/
         width: 780px;
     }
 
+    .newslatter {
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+
     .assine {
         width: 310px;
         font-size: 16px;
@@ -942,6 +968,10 @@ Largura máxima smartphone= 320px*/
 }
 
 @media screen and (max-width: 1050px) {
+    .newslatter {
+        padding-left: 15%;
+        padding-right: 15%;
+    }
 
     .seu-nome {
         width: 105px;
@@ -966,6 +996,10 @@ Largura máxima smartphone= 320px*/
 }
 
 @media screen and (max-width: 1000px) {
+    .banner {
+        height: 400px;
+    }
+    
     .container-grid {
         width: 95vw;
     }
@@ -1006,7 +1040,7 @@ Largura máxima smartphone= 320px*/
     }
 
     .container-grid.titulo {
-        padding-top: 240px;
+        padding-top: 200px;
     }
 
     .marcas {
@@ -1048,11 +1082,11 @@ Largura máxima smartphone= 320px*/
     }
 
     .jogos-top {
-        width: 880px;
+        width: 88vw;
     }
 
     .imagem-games {
-        height: 500px;
+        height: auto;
     }
 
     .titulo-placas {
@@ -1061,28 +1095,35 @@ Largura máxima smartphone= 320px*/
 
     .descricao-placas {
         height: 380px;
+        padding-left: 15%;
+        padding-right: 15%;
     }
 
     .banner-placa-de-video {
-        height: 340px;
+        height: auto;
     }
 
     .banner1 {
-        width: 880px;
+        width: 88vw;
     }
 
     .banner-2-placa-de-video {
-        height: 140px;
+        padding-top: 20px;
+        height: auto;
     }
 
     .banner2 {
-        height: 130px;
+        width: 80vw;
     }
 
     .newslatter {
-        padding-top: 20px;
-        padding-left: 170px;
-        padding-right: 170px;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: space-around;
+        height: 80px;
+        padding-top: 10px;
+        padding-left: 30%;
+        padding-right: 30%;
     }
 
     .assine {
@@ -1098,9 +1139,9 @@ Largura máxima smartphone= 320px*/
     }
 
     .links-rapidos {
-        padding-top: 45px;
-        padding-left: 150px;
-        padding-right: 150px;
+        padding-top: 20px;
+        padding-left: 12%;
+        padding-right: 12%;
         height: 370px;
     }
 
@@ -1115,12 +1156,13 @@ Largura máxima smartphone= 320px*/
     .departamentos {
         font-size: 10.5px;
         height: 320px;
+        width: 145px;
     }
 
     .institucional-duvidas {
         font-size: 10.5px;
         height: 320px;
-        width: 170px;
+        width: 150px;
     }
 
     .container-duvidas {
@@ -1132,10 +1174,20 @@ Largura máxima smartphone= 320px*/
     .atendimento {
         font-size: 10.5px;
         height: 320px;
+        width: 160px;
     }
 
     .contate-nos {
         height: 320px;
+        width: 160px;
+    }
+
+    .primeiro-grid {
+        width: 160px;
+    }
+
+    .grid-redes {
+        width: 160px;
     }
 
     .grid-certificados {
@@ -1143,7 +1195,7 @@ Largura máxima smartphone= 320px*/
     }
 
     .fundo {
-        height: 2230px;
+        height: auto;
     }
 
     .rodape {
@@ -1202,8 +1254,12 @@ Largura máxima smartphone= 320px*/
     }
 
     .imagem-games {
-        padding-top: 1%;
+        padding-top: 2%;
         height: auto;
+    }
+
+    .jogos-top {
+        width: 88vw;
     }
 
     .titulo-placas {
@@ -1241,7 +1297,7 @@ Largura máxima smartphone= 320px*/
     }
 
     .banner1 {
-        width: 94vw;
+        width: 88vw;
     }
 
     .banner-2-placa-de-video {
@@ -1249,17 +1305,49 @@ Largura máxima smartphone= 320px*/
     }
 
     .banner2 {
-        width: 85vw;
+        width: 80vw;
+    }
+
+    .newslatter {
+        padding-left: 30%;
+        padding-right: 30%;
+    }
+
+    .fundo {
+        height: 2130px;
     }
 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 850px) {
+    .container-grid {
+        width: 100vw;
+    }
 
-    .cabecalho {
-        width: 768px;
-        padding-left: 15px;
-        padding-right: 15px;
+    .newslatter {
+        padding-left: 28%;
+        padding-right: 28%;
+    }
+
+    .links-rapidos {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container-grid {
+        width: 100vw;
+    }
+
+    .header {
+        height: 60px;
+    }
+    .container-grid.cabecalho {
+        height: 60px;
+        width: 100vw;
+        padding-left: 7%;
+        padding-right: 7%;
     }
 
     .menu a {
@@ -1286,13 +1374,13 @@ Largura máxima smartphone= 320px*/
         font-size: 16px;
     }
 
-    .titulo {
-        padding-top: 130px;
+    .container-grid.titulo {
+        padding-top: 140px;
         padding-left: 280px;
     }
 
     .icones {
-        width: 768px;
+        width: 100vw;
         padding-left: 60px;
         padding-right: 60px;
     }
@@ -1329,65 +1417,23 @@ Largura máxima smartphone= 320px*/
         font-size: 26px;
     }
 
-    .descricao1 {
-        width: max-content;
-        height: 350px;
+    .container-grid.descricao1 div {
+        height: 355px;
     }
 
-    .descricao1 div {
-        width: 130px;
-        height: 350px;
-    }
-
-    .img-fone {
-        width: 110px;
-
-    }
-
-    .img-teclado {
-        width: 110px;
-    }
-
-    .img-mouse {
-        width: 110px;
-    }
-
-    .img-mousepad {
-        width: 110px;
-    }
-
-    .img-monitor {
-        width: 110px;
-    }
-
-    .informacao {
-        font-size: 13px;
-        height: 120px;
-    }
-
-    .pagamento {
-        font-size: 12px;
-    }
-
-    .valor1 {
-        font-size: 17px;
-    }
-
-    .linha {
-        height: max-content;
-    }
-
-    .valor2 {
-        font-size: 17px;
-    }
-
-    .parcelado {
-        font-size: 12px;
+    .container-grid.descricao1 {
+        display: flex;
+        justify-content: space-around;
+        height: auto;
+        flex-wrap: wrap;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-bottom: 3%;
     }
 
     .imagem-games {
         width: max-content;
-        height: 400px;
+        height: auto;
         padding-top: 15px;
         padding-left: 30px;
         padding-right: 30px;
@@ -1396,6 +1442,10 @@ Largura máxima smartphone= 320px*/
     .jogos-top {
         width: 708px;
 
+    }
+
+    .fundo {
+        height: auto;
     }
 }
 
