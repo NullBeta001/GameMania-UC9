@@ -1335,6 +1335,16 @@ Largura máxima smartphone= 320px*/
     }
 }
 
+@media screen and (max-width: 800px) {
+    .links-rapidos {
+        height: 330px
+    }
+    
+    .fundo {
+        height: auto;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .container-grid {
         width: 100vw;
