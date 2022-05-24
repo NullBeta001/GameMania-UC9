@@ -1370,7 +1370,9 @@ Largura máxima smartphone= 320px*/
         height: 370px;
     }
 
-    .conteudo-banner h1 {
+    .conteudo-banner {
+        flex-wrap: wrap;
+        text-align: center;
         text-transform: uppercase;
         font-family: "Titillium Web";
         font-weight: bolder;
@@ -1445,13 +1447,59 @@ Largura máxima smartphone= 320px*/
         width: max-content;
         height: auto;
         padding-top: 15px;
-        padding-left: 30px;
-        padding-right: 30px;
+        padding-left: 5vw;
+        padding-right: 5vw;
     }
 
     .jogos-top {
-        width: 708px;
+        width: 90vw;
+    }
 
+    .descricao-placas div {
+        height: 360px
+    }
+
+    .descricao-placas {
+        justify-content: space-around;
+        height: auto;
+    }
+
+    .banner-placa-de-video {
+        height: auto;
+    }
+
+    .banner-2-placa-de-video {
+        height: auto;
+    }
+
+    .newslatter {
+        justify-content: space-around;
+    }
+
+    .departamentos {
+        height: 270px;
+    }
+
+    .institucional-duvidas {
+        height: 270px;
+    }
+
+    .atendimento {
+        height: 270px;
+    }
+
+    .contate-nos {
+        height: 270px;
+    }
+
+    .links-rapidos {
+        flex-wrap: wrap;
+        height: auto;
+        justify-content: space-around;
+    }
+
+    .grid-certificados {
+        height: 100px;
     }
 
     .fundo {
@@ -1459,4 +1507,77 @@ Largura máxima smartphone= 320px*/
     }
 }
 
-@media screen and (max-width: 320px) {}
+@media screen and (max-width: 590px) {
+    .container-grid {
+        width: 100vw;
+    }
+
+    .container-grid.titulo {
+        padding-left: 50vw;
+        padding-right: 5vw;
+    }
+
+    .marcas {
+        height: auto;
+    }
+
+    .container-grid.icones {
+        flex-wrap: wrap;
+        height: auto;
+        justify-content: space-around;
+    }
+
+    .terceiro-titulo {
+        height: auto;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .newslatter {
+        height: auto;
+    }
+
+    .container-duvidas {
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .container-grid {
+        width: 100vw;
+    }
+
+    .logo {
+        width: 230px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .container-grid {
+        width: 100vw;
+    }
+
+    .logo {
+        width: 200px;
+    }
+
+    .icone-menu {
+        width: 36px
+    }
+
+    .conteudo-banner h1{
+        font-size: 55px;
+    }
+
+    .conteudo-banner p {
+        font-size: 14px;
+    }
+
+    .titulo-secundario {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+}
+
+/*Finalização da responsividade nas resoluções solicitadas*/
+/*Resolução minima testada = 255px*/
