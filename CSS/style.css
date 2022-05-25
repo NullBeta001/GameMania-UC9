@@ -36,6 +36,10 @@ header {
     justify-content: space-between;
 }
 
+#barras {
+    display: none;
+}
+
 .icone-menu {
     height: 40px;
     color: white;
@@ -575,8 +579,8 @@ Largura máxima smartphone= 320px*/
         width: max-content;
         height: 650px;
         padding-top: 10px;
-        padding-left: 10%;
-        padding-right: 10%;
+        padding-left: 10vw;
+        padding-right: 10vw;
     }
 
     .jogos-top {
@@ -774,11 +778,25 @@ Largura máxima smartphone= 320px*/
 
 @media screen and (max-width: 1100px) {
     .cabecalho {
+        position: relative;
         width: 1000px;
-    }   
+    }
+
+    #barras {
+        display: inline-block;
+    }
 
     .menu {
-        width: 480px;
+        position: absolute;
+        top: 80px;
+        right: 0px;
+        display: none;
+        width: 280px;
+        justify-content: space-around;
+        flex-direction: column;
+        background-color: #000000;
+        align-items: center;
+        height: 200px;
     }
 
     .icones {
@@ -977,6 +995,19 @@ Largura máxima smartphone= 320px*/
         width: 105px;
     }
 
+    .menu {
+        position: absolute;
+        top: 80px;
+        right: 0px;
+        display: none;
+        width: 280px;
+        justify-content: space-around;
+        flex-direction: column;
+        background-color: #000000;
+        align-items: center;
+        height: 200px;
+    }
+
     .seu-email {
         width: 150px;
     }
@@ -1023,8 +1054,17 @@ Largura máxima smartphone= 320px*/
         padding-right: 5%;
     }
 
-    .menu a {
-        font-size: 20px;
+    .menu {
+        position: absolute;
+        top: 70px;
+        right: 0px;
+        display: none;
+        width: 280px;
+        justify-content: space-around;
+        flex-direction: column;
+        background-color: #000000;
+        align-items: center;
+        height: 200px;
     }
 
     .icone-menu {
@@ -1361,9 +1401,20 @@ Largura máxima smartphone= 320px*/
     }
 
     .menu a {
-        font-size: 17px;
-        padding-left: 15px;
-        padding-right: 15px;
+        font-size: 20px;
+    }
+
+    .menu {
+        position: absolute;
+        top: 60px;
+        right: 0px;
+        display: none;
+        width: 230px;
+        justify-content: space-around;
+        flex-direction: column;
+        background-color: #000000;
+        align-items: center;
+        height: 200px;
     }
 
     .banner {
