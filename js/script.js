@@ -49,3 +49,8 @@ function mostrarMenu() {
         menu.style.display = 'none';
     }
 }
+
+function cadastrarNewsLetter () {
+    let email = document.getElementById("campo-email").value
+    alert(email)
+}

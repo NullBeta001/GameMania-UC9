@@ -308,6 +308,23 @@ header {
     line-height: 1;
 }
 
+#campo-email {
+    width: 400px;
+    height: 40px;
+    font-family: "Titillium Web";
+}
+
+.cadastrar {
+    background-color: #ff0000;
+    color: #ffffff;
+    font-size: 16px;
+    text-transform: uppercase;
+    width: 150px;
+    height: 40px;
+    font-family: "Titillium Web";
+    font-weight: bold;
+}
+
 .links-rapidos {
     width: 100%;
     height: 500px;
@@ -411,18 +428,6 @@ Largura máxima smartphone= 320px*/
         font-size: 20px;
     }
 
-    .seu-nome {
-        width: 180px;
-    }
-
-    .seu-email {
-        width: 250px;
-    }
-
-    .inscreva {
-        width: 140px;
-    }
-
     .links-rapidos {
         height: 450px;
     }
@@ -435,18 +440,6 @@ Largura máxima smartphone= 320px*/
 @media screen and (max-width: 1700px) {
     .assine {
         font-size: 18px;
-    }
-
-    .seu-nome {
-        width: 160px;
-    }
-
-    .seu-email {
-        width: 220px;
-    }
-
-    .inscreva {
-        width: 120px;
     }
 
     .fundo {
@@ -475,6 +468,17 @@ Largura máxima smartphone= 320px*/
 
     .banner2 {
         width: 870px;
+    }
+
+    #campo-email {
+        width: 320px;
+        height: 32px;
+    }
+
+    .cadastrar {
+        font-size: 14px;
+        width: 120px;
+        height: 32px;
     }
 
     .links-rapidos {
@@ -576,7 +580,7 @@ Largura máxima smartphone= 320px*/
     }
 
     .imagem-games {
-        width: max-content;
+        width: 100vw;
         height: 650px;
         padding-top: 10px;
         padding-left: 10vw;
@@ -636,18 +640,6 @@ Largura máxima smartphone= 320px*/
     .assine {
         width: 380px;
     }
-
-    .seu-nome {
-        width: 140px;
-    }
-
-    .seu-email {
-        width: 200px;
-    }
-
-    .inscreva {
-        width: 110px;
-    }
 }
 
 @media screen and (max-width: 1300px) {
@@ -674,18 +666,6 @@ Largura máxima smartphone= 320px*/
 
     .assine {
         width: 365px;
-    }
-
-    .seu-nome {
-        width: 120px;
-    }
-
-    .seu-email {
-        width: 180px;
-    }
-
-    .inscreva {
-        width: 100px;
     }
 
     .fundo {
@@ -740,20 +720,19 @@ Largura máxima smartphone= 320px*/
         padding-right: 18%;
     }
 
+    #campo-email {
+        width: 290px;
+        height: 29px;
+    }
+
+    .cadastrar {
+        font-size: 13px;
+        width: 100px;
+        height: 29px;
+    }
+
     .assine {
         width: 340px;
-    }
-
-    .seu-nome {
-        width: 110px;
-    }
-
-    .seu-email {
-        width: 160px;
-    }
-
-    .inscreva {
-        width: 92px;
     }
 
     .links-rapidos {
@@ -991,8 +970,9 @@ Largura máxima smartphone= 320px*/
         padding-right: 15%;
     }
 
-    .seu-nome {
-        width: 105px;
+    .div-pai {
+        display: flex;
+        justify-content: flex-end;
     }
 
     .menu {
@@ -1006,14 +986,6 @@ Largura máxima smartphone= 320px*/
         background-color: #000000;
         align-items: center;
         height: 200px;
-    }
-
-    .seu-email {
-        width: 150px;
-    }
-
-    .inscreva {
-        width: 88px;
     }
 
     .grid-certificados {
@@ -1168,14 +1140,6 @@ Largura máxima smartphone= 320px*/
 
     .assine {
         font-size: 14.5px;
-    }
-
-    .seu-nome {
-        width: 100px;
-    }
-
-    .seu-email {
-        width: 140px;
     }
 
     .links-rapidos {
@@ -1527,6 +1491,17 @@ Largura máxima smartphone= 320px*/
         justify-content: space-around;
     }
 
+    #campo-email {
+        width: 260px;
+        height: 26px;
+    }
+
+    .cadastrar {
+        font-size: 14px;
+        width: 100px;
+        height: 27px;
+    }
+
     .departamentos {
         height: 270px;
     }
@@ -1600,6 +1575,23 @@ Largura máxima smartphone= 320px*/
 
     .logo {
         width: 230px;
+    }
+
+    .div-pai {
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+    }
+
+    #campo-email {
+        width: 230px;
+        height: 23px;
+    }
+
+    .cadastrar {
+        font-size: 13px;
+        width: 90px;
+        height: 24px;
     }
 }
 
