@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login - GAME MANIA</title>
+        <link rel="stylesheet" href="CSS/style.css">
+    </head>
+    <body>
+        <header class="header"> 
+            <div class="container-grid cabecalho">
+                <a href="index.html"><img class="logo" src="img/GAME MANIA.svg" alt="Logo do site Game Mania"></a>  
+                  <nav id="menu" class="menu">
+                      <a href="login.html">Login</a>
+                      <a href="#" target="_blank">Fale Conosco</a>
+                      <a href="#" target="_blank">Departamentos</a>
+                  </nav>
+                  <a href="#" id="barras" onclick="mostrarMenu()"><img class="icone-menu" src="img/bars-solid.svg" alt="menu barras"></a>
+            </div>
+        </header>
+        <main class="main-login">
+            <form class="login-page" (ngSubmit)="receberDados()">
+                <div class="campo-label">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Ex.: email@email.com" [(ngModel)]="userModel.email">
+                </div>
+            
+                <div class="campo-label">
+                    <label for="senha">Senha</label>
+                    <input type="password" name="password" id="senha" placeholder="Sua senha aqui..." [(ngModel)]="userModel.password">
+                </div>
+    
+                <input id="botao-enviar" type="submit" value="Entrar">
+                <!-- <button type="submit">Entrar</button> -->
+            </form>
+        </main>
+        <footer class="container-rodape">
+            <div class="rodape">
+                 <p class="dados-gm">Game Mania® é uma marca registrada de GAME MANIA COMÉRCIO S/A | CNPJ: 00.000.000/000-00 | 
+                 Todos os direitos reservados. Os preços anunciados neste site ou via e-mail promocional 
+                 podem ser alterados sem prévio aviso. As fotos contidas nesta página são meramente 
+                 ilustrativas do produto e podem variar de acordo com o fornecedor/lote do fabricante. 
+                 Este site trabalha 100% em criptografia SSL.</p>
+            </div>
+        </footer>
+    </body>
+</html>
